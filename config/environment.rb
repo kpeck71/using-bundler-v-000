@@ -1,1 +1,2 @@
-require '.Gemfile'
+require 'bundler/setup'
+Bundler.require(:default, :development)
